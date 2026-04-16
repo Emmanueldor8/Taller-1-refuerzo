@@ -1,109 +1,108 @@
-# Repaso JavaScript - LOCAL STORE 🛒
+# Taller 1 Refuerzo JavaScript 💻✨
 
-📌 **Descripción**
+## 📌 Descripción
 
-Este proyecto es una aplicación educativa enfocada en el dominio de **JavaScript moderno** y lógica de programación. Está diseñado para demostrar de manera práctica el manejo de procesos asíncronos, manipulación de datos y operaciones CRUD, manteniendo una estructura de archivos modular, limpia y profesional.
+Este proyecto corresponde al **Taller 1 de refuerzo en JavaScript**, desarrollado con el objetivo de fortalecer los conocimientos en lógica de programación y fundamentos de **JavaScript moderno**.
 
-La aplicación está organizada por carpetas de funcionalidades para facilitar el aprendizaje y la escalabilidad del código.
+La aplicación está diseñada para practicar conceptos clave como la manipulación de datos, estructuras de control, funciones, asincronía y organización modular del código, integrando además **HTML5 y CSS3** para la interacción visual.
 
-✨ **Características principales**
+Su estructura busca mantener una organización clara y escalable, facilitando el aprendizaje y la comprensión de cada funcionalidad implementada.
 
-- **Asincronía Avanzada:** Implementación de flujos con `Async/Await`, `Promises` y `Callbacks`.
-- **Manipulación de Datos:** Uso de _Destructuring_ para un código más eficiente.
-- **Gestión de Datos:** Lógica de un sistema `CRUD` para el manejo de información.
-- **Estructura Modular:** Organización por carpetas de características (_Feature_) y recursos compartidos (_Shared_).
-- **Interfaz Web:** Integración de lógica JavaScript con archivos HTML5 y CSS3 estructurados.
+---
 
-🖥️ **Módulos del Proyecto**
+## ✨ Características principales
 
-La aplicación se divide en los siguientes bloques de aprendizaje:
+- **Lógica en JavaScript moderno:** Implementación de ejercicios prácticos usando ES6+.
+- **Manipulación de Datos:** Uso de variables, arreglos, objetos y funciones.
+- **Programación Modular:** Organización del código en archivos separados por funcionalidad.
+- **Interfaz Web:** Integración con HTML y estilos básicos en CSS.
+- **Buenas prácticas:** Código estructurado y legible para facilitar el aprendizaje.
 
-- **Async/Await** → Manejo moderno de peticiones y tiempos de espera.
-- **Callbacks** → Entendimiento de funciones de orden superior.
-- **CRUD** → Creación, lectura, actualización y eliminación de registros.
-- **Destructuring** → Extracción ágil de datos de objetos y arreglos.
-- **Promesas** → Gestión de flujos y estados (Pending, Resolved, Rejected).
+---
 
-🏗️ **Arquitectura del Proyecto (File Structure)**
+## 🖥️ Contenido del Proyecto
 
-Basado en la estructura actual del repositorio:
+Este taller incluye ejercicios enfocados en:
 
-```text
-LOCAL_STORE/
+- **Variables y tipos de datos** → Manejo básico de información.
+- **Condicionales** → Evaluación de condiciones con `if`, `else`, `switch`.
+- **Ciclos** → Repetición de tareas usando `for`, `while`.
+- **Funciones** → Creación y reutilización de bloques de código.
+- **Arreglos y Objetos** → Manipulación de estructuras de datos.
+- **Eventos DOM** → Interacción dinámica con la interfaz.
+
+---
+
+## 🏗️ Arquitectura del Proyecto (File Structure)
+
+```bash
+Taller-1-refuerzo/
 │
-├── public/
-│   └── images/
-│       └──logosena.png
-           └── image.png
-             
+├── public/                 # Recursos estáticos
+│   └── images/             # Imágenes del proyecto
 │
-├── src/
-│   ├── Feature/                  # Módulos de funcionalidades
-│   │   ├── asyncawait/
-│   │   │   ├── async-wait.html
-│   │   │   └── async-wait.js
-│   │   ├── callbacks/
-│   │   │   ├── callback.html
-│   │   │   └── callbacks.js
-│   │   ├── crud/
-│   │   │   └── main.js
-│   │   ├── destructuring/
-│   │   │   ├── destructuring.html
-│   │   │   └── destructuring.js
-│   │   └── promesas/
-│   │       ├── promesas.html
-│   │       └── promesas.js
-│   │
-│   ├── shared/                   # Recursos globales
-│   │   └── styles/
-│   │       └── styles.css
-│   │
-│   └── index.html                # Punto de entrada principal
+├── src/                    # Código fuente principal
+│   ├── js/                 # Scripts JavaScript
+│   ├── css/                # Estilos globales
+│   └── index.html          # Archivo principal
 │
-└── README.md
+└── README.md               # Documentación del proyecto
 ```
 
-📂 Explicación de la estructura
+---
 
-public/: Contiene recursos estáticos como imágenes y logotipos.
+## 📂 Explicación de la estructura
 
-src/Feature/: Contiene los módulos lógicos del proyecto. Cada subcarpeta incluye su archivo HTML y JS independiente para pruebas específicas.
+- **public/**: Contiene recursos estáticos como imágenes o íconos.
+- **src/js/**: Archivos JavaScript con la lógica de los ejercicios.
+- **src/css/**: Archivos CSS para los estilos visuales.
+- **src/index.html**: Punto de entrada principal de la aplicación.
+- **README.md**: Documentación general del proyecto.
 
-src/shared/: Almacena los estilos CSS globales que unifican la apariencia visual.
+---
 
-index.html: Archivo principal que conecta o presenta los diferentes módulos.
+## 🚀 Instalación y ejecución
 
-🚀 Instalación y ejecución
+Clona este repositorio:
 
-Clona el repositorio:
+```bash
+git clone https://github.com/Emmanueldor8/Taller-1-refuerzo.git
+```
 
-Bash
-git clone [https://github.com/drexmezadelaossa/Proyecto_react_N-1.git](https://github.com/drexmezadelaossa/Proyecto_react_N-1.git)
 Ingresa al proyecto:
 
-Bash
-cd Proyecto_react_N-1
-Ejecución:
-Al ser un proyecto de JavaScript Vanilla, simplemente abre el archivo index.html en tu navegador o usa la extensión Live Server en VS Code.
+```bash
+cd Taller-1-refuerzo
+```
 
- 🖼️ Captura de pantalla
+Ejecuta el proyecto:
 
-![Vista previa de la aplicación](./public/images/image.png)
+Abre el archivo `index.html` en tu navegador o usa la extensión **Live Server** en VS Code.
 
-👨‍💻 Datos del Autor
+---
 
-Nombre: Andrés Meza
+## 🖼️ Captura de pantalla
 
-Programa: Desarrollo de Software / Frontend
+Agrega aquí una imagen de vista previa del proyecto:
 
-Institución: SENA
+```md
+![Vista previa de la aplicación](./public/images/preview.png)
+```
 
-Tecnologías: JavaScript ES6+, HTML5, CSS3
+---
 
-GitHub: @drexmezadelaossa
+## 👨‍💻 Datos del Autor
 
-🔗 Repositorio oficial
+**Nombre:** Emmanuel Ortiz Cano
+**Programa:** Desarrollo de Software / Frontend
+**Institución:** SENA
+**Tecnologías:** JavaScript ES6+, HTML5, CSS3
+**GitHub:** [@Emmanueldor8](https://github.com/Emmanueldor8)
+
+---
+
+## 🔗 Repositorio oficial
 
 Puedes ver el código fuente y actualizaciones aquí:
 
-<https://github.com/drexmezadelaossa/Proyecto_react_N-1.git>
+👉 https://github.com/Emmanueldor8/Taller-1-refuerzo.git
